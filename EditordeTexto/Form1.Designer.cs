@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -77,7 +76,6 @@
             this.btnImprimir = new System.Windows.Forms.ToolStripButton();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.Fontebtn = new System.Windows.Forms.ToolStripButton();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -282,8 +280,7 @@
             this.btnEsquerda,
             this.brnDireita,
             this.toolStripSeparator4,
-            this.btnImprimir,
-            this.Fontebtn});
+            this.btnImprimir});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(800, 25);
@@ -467,15 +464,6 @@
             this.sobreToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.sobreToolStripMenuItem1.Text = "Sobre";
             // 
-            // Fontebtn
-            // 
-            this.Fontebtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.Fontebtn.Image = ((System.Drawing.Image)(resources.GetObject("Fontebtn.Image")));
-            this.Fontebtn.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.Fontebtn.Name = "Fontebtn";
-            this.Fontebtn.Size = new System.Drawing.Size(23, 22);
-            this.Fontebtn.Text = "Fonte";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -549,7 +537,6 @@
         private System.Windows.Forms.ToolStripButton btnImprimir;
         private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripButton Fontebtn;
     }
 }
 
