@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF25E127-0269-42D9-9630-CCED781FFCF1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EditordeTexto</RootNamespace>
+    <AssemblyName>EditordeTexto</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\353430-checkbox-edit-pen-pencil_107516.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348525-music-forward-front-next-arrow_80457.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348526-arrow-back-backwards-repeat-previous_80453.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348528-forward-arrows-arrow-front-go_80452.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348529-back-backwards-repeat-arrows-arrow_80455.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348532-music-play-pause-control-go-arrow_80458.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundGradiente_Blue_White.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broom_icon-icons.com_65152.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browser_internet_network_6248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_stop_exit_1583 %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_stop_exit_1583.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clear_37294 %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clear_37294.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dog_icon_124393.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dogpawprint_89239.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filesystems_network_Locallan_filesystem_631.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-square-arrow-button-outline_icon-icons.com_73220.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout_37127 %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout_37127.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newdocument_80836.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peer_to_peer_icon-icons.com_76798.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-page-option_icon-icons.com_73441.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_21411.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open file.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy_paste_document_file_1557.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wondicon-ui-free-file_111223.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bold-text_icon-icons.com_71249.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italic_icon-icons.com_70938.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underline-text-option_icon-icons.com_70837.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font-document-black-interface-symbol-of-paper-sheet-with-letters_icon-icons.com_54515.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text-align-center_icon-icons.com_48217.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text-align-left_icon-icons.com_48215.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text-align-right_icon-icons.com_48214.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text-align-justify_icon-icons.com_48216.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3925426-print-printer-printing-icon_111556.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
