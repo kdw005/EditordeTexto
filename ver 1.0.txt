@@ -1,0 +1,8 @@
+Editor de texto V 1.0
+---------------------
+Totalmente gratuito
+Desenvolvido por mim, Eduardo Rubim, 
+estudante de programação com o objetivo 
+de praticar programação.
+
+---------------------

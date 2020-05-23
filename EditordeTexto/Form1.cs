@@ -480,5 +480,11 @@ namespace EditordeTexto
             }
         }
 
+        private void sobreToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.Show();
+
+        }
     }
 }
